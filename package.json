@@ -1,8 +1,33 @@
 {
+    "name": "ucrm",
+    "version": "1.0.0",
     "private": true,
+    "description": "<p align=\"center\"><a href=\"https://laravel.com\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg\" width=\"400\" alt=\"Laravel Logo\"></a></p>",
+    "homepage": "https://github.com/Asato846/laravel_uCRM#readme",
+    "bugs": {
+        "url": "https://github.com/Asato846/laravel_uCRM/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Asato846/laravel_uCRM.git"
+    },
+    "license": "ISC",
+    "author": "",
+    "type": "commonjs",
+    "main": "postcss.config.js",
+    "directories": {
+        "test": "tests"
+    },
     "scripts": {
         "dev": "vite",
         "build": "vite build"
+    },
+    "dependencies": {
+        "npm-force-resolutions": "^0.0.10",
+        "yubinbango-core2": "^0.6.3"
+    },
+    "overrides": {
+        "axios": "^1.1.2"
     },
     "devDependencies": {
         "@inertiajs/inertia": "^0.11.1",
