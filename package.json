@@ -1,14 +1,47 @@
 {
+    "name": "ucrm",
+    "version": "1.0.0",
     "private": true,
+    "description": "<p align=\"center\"><a href=\"https://laravel.com\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg\" width=\"400\" alt=\"Laravel Logo\"></a></p>",
+    "homepage": "https://github.com/Asato846/laravel_uCRM#readme",
+    "bugs": {
+        "url": "https://github.com/Asato846/laravel_uCRM/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Asato846/laravel_uCRM.git"
+    },
+    "license": "ISC",
+    "author": "",
+    "type": "commonjs",
+    "main": "postcss.config.js",
+    "directories": {
+        "test": "tests"
+    },
     "scripts": {
         "dev": "vite",
         "build": "vite build"
     },
+    "dependencies": {
+        "npm-force-resolutions": "^0.0.10",
+        "yubinbango-core2": "^0.6.3"
+    },
+    "overrides": {
+        "axios": "^1.1.2"
+    },
     "devDependencies": {
+        "@inertiajs/inertia": "^0.11.1",
+        "@inertiajs/inertia-vue3": "^0.6.0",
+        "@inertiajs/vue3": "^1.0.0",
+        "@tailwindcss/forms": "^0.5.3",
+        "@vitejs/plugin-vue": "^6.0.1",
+        "autoprefixer": "^10.4.12",
         "axios": "^1.1.2",
-        "laravel-vite-plugin": "^0.7.2",
+        "laravel-vite-plugin": "^2.0.0",
         "lodash": "^4.17.19",
-        "postcss": "^8.1.14",
-        "vite": "^4.0.0"
+        "postcss": "^8.4.18",
+        "tailwindcss": "^3.2.1",
+        "vite": "^7.1.2",
+        "vue": "^3.2.41"
     }
 }

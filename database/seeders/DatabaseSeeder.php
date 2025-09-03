@@ -20,5 +20,10 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
+        $this->call([
+            UserSeeder::class,
+            ItemSeeder::class,
+        ]);
+        \App\Models\Customer::factory(1000)->create();
     }
 }
